@@ -30,8 +30,7 @@ server.start((err) => {
           level: 'trace'
         },
         hapiPino: {
-          logPayload: true,
-          mergeHapiLogData: true
+          logPayload: true
         }
       }
     });
